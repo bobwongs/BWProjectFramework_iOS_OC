@@ -13,7 +13,6 @@
 		212F514F1D40ABFB001CBA91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212F514D1D40ABFB001CBA91 /* LaunchScreen.storyboard */; };
 		212F515A1D40ABFB001CBA91 /* BWProjectFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F51591D40ABFB001CBA91 /* BWProjectFrameworkTests.m */; };
 		212F51651D40ABFB001CBA91 /* BWProjectFrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F51641D40ABFB001CBA91 /* BWProjectFrameworkUITests.m */; };
-		B44DE8181D470C5B004C946E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8171D470C5B004C946E /* README.md */; };
 		B44DE8461D471710004C946E /* BWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8451D471710004C946E /* BWBaseViewController.m */; };
 		B44DE8561D4719AA004C946E /* BWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8541D4719AA004C946E /* BWHomeViewController.m */; };
 		B44DE8571D4719AA004C946E /* BWHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B44DE8551D4719AA004C946E /* BWHomeViewController.xib */; };
@@ -26,19 +25,12 @@
 		B44DE8691D472EF1004C946E /* BWGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8681D472EF1004C946E /* BWGlobal.m */; };
 		B44DE86C1D472F27004C946E /* BWUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE86B1D472F27004C946E /* BWUser.m */; };
 		B44DE86F1D472F64004C946E /* BWNetworkKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE86E1D472F64004C946E /* BWNetworkKit.m */; };
-		B44DE8711D47329F004C946E /* BWCategory in Resources */ = {isa = PBXBuildFile; fileRef = B44DE8701D47329F004C946E /* BWCategory */; };
-		B44DE8791D4740EB004C946E /* BWLibrary in Resources */ = {isa = PBXBuildFile; fileRef = B44DE8781D4740EB004C946E /* BWLibrary */; };
 		B44DE8831D47446B004C946E /* BWLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8821D47446B004C946E /* BWLocationManager.m */; };
 		B44DE8861D47447B004C946E /* BWScanBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8851D47447B004C946E /* BWScanBarManager.m */; };
 		B44DE8891D474487004C946E /* BWSelectTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8881D474487004C946E /* BWSelectTimeManager.m */; };
 		B44DE88C1D474494004C946E /* BWSomeFunctionalView.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE88B1D474494004C946E /* BWSomeFunctionalView.m */; };
 		B44DE88F1D4744C9004C946E /* BWDataUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE88E1D4744C9004C946E /* BWDataUtility.m */; };
 		B44DE8921D4744E9004C946E /* BWUIUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8911D4744E9004C946E /* BWUIUtility.m */; };
-		B44DE8941D474515004C946E /* Image in Resources */ = {isa = PBXBuildFile; fileRef = B44DE8931D474515004C946E /* Image */; };
-		B44DE8961D474529004C946E /* Configuration in Resources */ = {isa = PBXBuildFile; fileRef = B44DE8951D474529004C946E /* Configuration */; };
-		B44DE8981D474540004C946E /* Database in Resources */ = {isa = PBXBuildFile; fileRef = B44DE8971D474540004C946E /* Database */; };
-		B44DE89A1D474555004C946E /* Sound in Resources */ = {isa = PBXBuildFile; fileRef = B44DE8991D474555004C946E /* Sound */; };
-		B44DE89C1D47456F004C946E /* Vedio in Resources */ = {isa = PBXBuildFile; fileRef = B44DE89B1D47456F004C946E /* Vedio */; };
 		B44DE89F1D4745CA004C946E /* BWHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE89E1D4745CA004C946E /* BWHomeModel.m */; };
 		B44DE8A21D4745DD004C946E /* BWHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8A11D4745DD004C946E /* BWHomeView.m */; };
 		B44DE8A51D4745EB004C946E /* BWLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8A41D4745EB004C946E /* BWLoginModel.m */; };
@@ -139,6 +131,7 @@
 		B44DE8B01D474704004C946E /* BWForgetPasswordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWForgetPasswordModel.m; sourceTree = "<group>"; };
 		B44DE8B21D474711004C946E /* BWForgetPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWForgetPasswordView.h; sourceTree = "<group>"; };
 		B44DE8B31D474711004C946E /* BWForgetPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWForgetPasswordView.m; sourceTree = "<group>"; };
+		B44DE8B51D47516B004C946E /* BWProjectFrameworkPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWProjectFrameworkPrefixHeader.pch; sourceTree = "<group>"; };
 		C015DAFC13467B72E0D84AA4 /* libPods-BWProjectFrameworkUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWProjectFrameworkUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDA0465E224EC0739C0F67B /* Pods-BWProjectFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWProjectFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWProjectFramework/Pods-BWProjectFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		D27E4CDB92572A59031E022D /* libPods-BWProjectFrameworkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWProjectFrameworkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -219,6 +212,7 @@
 				212F51401D40ABFB001CBA91 /* main.m */,
 				212F51501D40ABFB001CBA91 /* Info.plist */,
 				212F514D1D40ABFB001CBA91 /* LaunchScreen.storyboard */,
+				B44DE8B51D47516B004C946E /* BWProjectFrameworkPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -692,18 +686,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B44DE8571D4719AA004C946E /* BWHomeViewController.xib in Resources */,
-				B44DE8711D47329F004C946E /* BWCategory in Resources */,
 				212F514F1D40ABFB001CBA91 /* LaunchScreen.storyboard in Resources */,
-				B44DE8941D474515004C946E /* Image in Resources */,
 				212F514C1D40ABFB001CBA91 /* Assets.xcassets in Resources */,
-				B44DE8961D474529004C946E /* Configuration in Resources */,
-				B44DE89A1D474555004C946E /* Sound in Resources */,
 				B44DE8611D4719D2004C946E /* BWRegisterViewController.xib in Resources */,
-				B44DE8981D474540004C946E /* Database in Resources */,
 				B44DE85C1D4719BD004C946E /* BWLoginViewController.xib in Resources */,
-				B44DE89C1D47456F004C946E /* Vedio in Resources */,
 				B44DE8661D4719EA004C946E /* BWForgetPasswordViewController.xib in Resources */,
-				B44DE8791D4740EB004C946E /* BWLibrary in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -868,7 +855,6 @@
 				B44DE8A21D4745DD004C946E /* BWHomeView.m in Sources */,
 				212F51441D40ABFB001CBA91 /* AppDelegate.m in Sources */,
 				B44DE8A51D4745EB004C946E /* BWLoginModel.m in Sources */,
-				B44DE8181D470C5B004C946E /* README.md in Sources */,
 				B44DE8921D4744E9004C946E /* BWUIUtility.m in Sources */,
 				212F51411D40ABFB001CBA91 /* main.m in Sources */,
 				B44DE86F1D472F64004C946E /* BWNetworkKit.m in Sources */,
@@ -1009,6 +995,7 @@
 			baseConfigurationReference = CFDA0465E224EC0739C0F67B /* Pods-BWProjectFramework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = BWProjectFramework/BWProjectFrameworkPrefixHeader.pch;
 				INFOPLIST_FILE = BWProjectFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1022,6 +1009,7 @@
 			baseConfigurationReference = 0BF7ADEF090DE999D0FEEF19 /* Pods-BWProjectFramework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = BWProjectFramework/BWProjectFrameworkPrefixHeader.pch;
 				INFOPLIST_FILE = BWProjectFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

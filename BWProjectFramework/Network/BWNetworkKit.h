@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BWNetworkConfiguration.h"
 
 @interface BWNetworkKit : NSObject
 
