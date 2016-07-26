@@ -9,14 +9,25 @@
 /* Begin PBXBuildFile section */
 		212F51411D40ABFB001CBA91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F51401D40ABFB001CBA91 /* main.m */; };
 		212F51441D40ABFB001CBA91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F51431D40ABFB001CBA91 /* AppDelegate.m */; };
-		212F51471D40ABFB001CBA91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F51461D40ABFB001CBA91 /* ViewController.m */; };
-		212F514A1D40ABFB001CBA91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212F51481D40ABFB001CBA91 /* Main.storyboard */; };
 		212F514C1D40ABFB001CBA91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212F514B1D40ABFB001CBA91 /* Assets.xcassets */; };
 		212F514F1D40ABFB001CBA91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212F514D1D40ABFB001CBA91 /* LaunchScreen.storyboard */; };
 		212F515A1D40ABFB001CBA91 /* BWProjectFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F51591D40ABFB001CBA91 /* BWProjectFrameworkTests.m */; };
 		212F51651D40ABFB001CBA91 /* BWProjectFrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F51641D40ABFB001CBA91 /* BWProjectFrameworkUITests.m */; };
-		9D54CB221A5B239D4A58EC51 /* libPods-BWProjectFrameworkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D27E4CDB92572A59031E022D /* libPods-BWProjectFrameworkTests.a */; };
-		A778714E117DB4C0AD4A069B /* libPods-BWProjectFrameworkUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C015DAFC13467B72E0D84AA4 /* libPods-BWProjectFrameworkUITests.a */; };
+		B44DE8181D470C5B004C946E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8171D470C5B004C946E /* README.md */; };
+		B44DE8461D471710004C946E /* BWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8451D471710004C946E /* BWBaseViewController.m */; };
+		B44DE8561D4719AA004C946E /* BWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8541D4719AA004C946E /* BWHomeViewController.m */; };
+		B44DE8571D4719AA004C946E /* BWHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B44DE8551D4719AA004C946E /* BWHomeViewController.xib */; };
+		B44DE85B1D4719BD004C946E /* BWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8591D4719BD004C946E /* BWLoginViewController.m */; };
+		B44DE85C1D4719BD004C946E /* BWLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B44DE85A1D4719BD004C946E /* BWLoginViewController.xib */; };
+		B44DE8601D4719D2004C946E /* BWRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE85E1D4719D2004C946E /* BWRegisterViewController.m */; };
+		B44DE8611D4719D2004C946E /* BWRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B44DE85F1D4719D2004C946E /* BWRegisterViewController.xib */; };
+		B44DE8651D4719EA004C946E /* BWForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8631D4719EA004C946E /* BWForgetPasswordViewController.m */; };
+		B44DE8661D4719EA004C946E /* BWForgetPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B44DE8641D4719EA004C946E /* BWForgetPasswordViewController.xib */; };
+		B44DE8691D472EF1004C946E /* BWGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8681D472EF1004C946E /* BWGlobal.m */; };
+		B44DE86C1D472F27004C946E /* BWUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE86B1D472F27004C946E /* BWUser.m */; };
+		B44DE86F1D472F64004C946E /* BWNetworkKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE86E1D472F64004C946E /* BWNetworkKit.m */; };
+		B44DE8711D47329F004C946E /* BWCategory in Resources */ = {isa = PBXBuildFile; fileRef = B44DE8701D47329F004C946E /* BWCategory */; };
+		B44DE8791D4740EB004C946E /* BWLibrary in Resources */ = {isa = PBXBuildFile; fileRef = B44DE8781D4740EB004C946E /* BWLibrary */; };
 		DDC9DE0E9B2B46439503EB64 /* libPods-BWProjectFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC1DE9E9879244B5247CE15 /* libPods-BWProjectFramework.a */; };
 /* End PBXBuildFile section */
 
@@ -39,14 +50,10 @@
 
 /* Begin PBXFileReference section */
 		0BF7ADEF090DE999D0FEEF19 /* Pods-BWProjectFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWProjectFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWProjectFramework/Pods-BWProjectFramework.release.xcconfig"; sourceTree = "<group>"; };
-		209EFDBC0FC96F114030851D /* Pods-BWProjectFrameworkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWProjectFrameworkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWProjectFrameworkUITests/Pods-BWProjectFrameworkUITests.release.xcconfig"; sourceTree = "<group>"; };
 		212F513C1D40ABFB001CBA91 /* BWProjectFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWProjectFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		212F51401D40ABFB001CBA91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		212F51421D40ABFB001CBA91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		212F51431D40ABFB001CBA91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		212F51451D40ABFB001CBA91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		212F51461D40ABFB001CBA91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		212F51491D40ABFB001CBA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		212F514B1D40ABFB001CBA91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		212F514E1D40ABFB001CBA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		212F51501D40ABFB001CBA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,9 +63,30 @@
 		212F51601D40ABFB001CBA91 /* BWProjectFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWProjectFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		212F51641D40ABFB001CBA91 /* BWProjectFrameworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWProjectFrameworkUITests.m; sourceTree = "<group>"; };
 		212F51661D40ABFB001CBA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5ED2189836ED67240F6A931F /* Pods-BWProjectFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWProjectFrameworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWProjectFrameworkTests/Pods-BWProjectFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
-		801B0027DFA12592FC8DD8B5 /* Pods-BWProjectFrameworkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWProjectFrameworkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWProjectFrameworkUITests/Pods-BWProjectFrameworkUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		C0057707E7BC7155BA7D30C5 /* Pods-BWProjectFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWProjectFrameworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWProjectFrameworkTests/Pods-BWProjectFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B44DE8171D470C5B004C946E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		B44DE8441D471710004C946E /* BWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWBaseViewController.h; sourceTree = "<group>"; };
+		B44DE8451D471710004C946E /* BWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWBaseViewController.m; sourceTree = "<group>"; };
+		B44DE8531D4719AA004C946E /* BWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWHomeViewController.h; sourceTree = "<group>"; };
+		B44DE8541D4719AA004C946E /* BWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWHomeViewController.m; sourceTree = "<group>"; };
+		B44DE8551D4719AA004C946E /* BWHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWHomeViewController.xib; sourceTree = "<group>"; };
+		B44DE8581D4719BD004C946E /* BWLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWLoginViewController.h; sourceTree = "<group>"; };
+		B44DE8591D4719BD004C946E /* BWLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWLoginViewController.m; sourceTree = "<group>"; };
+		B44DE85A1D4719BD004C946E /* BWLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWLoginViewController.xib; sourceTree = "<group>"; };
+		B44DE85D1D4719D2004C946E /* BWRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWRegisterViewController.h; sourceTree = "<group>"; };
+		B44DE85E1D4719D2004C946E /* BWRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWRegisterViewController.m; sourceTree = "<group>"; };
+		B44DE85F1D4719D2004C946E /* BWRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWRegisterViewController.xib; sourceTree = "<group>"; };
+		B44DE8621D4719EA004C946E /* BWForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWForgetPasswordViewController.h; sourceTree = "<group>"; };
+		B44DE8631D4719EA004C946E /* BWForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWForgetPasswordViewController.m; sourceTree = "<group>"; };
+		B44DE8641D4719EA004C946E /* BWForgetPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWForgetPasswordViewController.xib; sourceTree = "<group>"; };
+		B44DE8671D472EF1004C946E /* BWGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWGlobal.h; sourceTree = "<group>"; };
+		B44DE8681D472EF1004C946E /* BWGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWGlobal.m; sourceTree = "<group>"; };
+		B44DE86A1D472F27004C946E /* BWUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWUser.h; sourceTree = "<group>"; };
+		B44DE86B1D472F27004C946E /* BWUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWUser.m; sourceTree = "<group>"; };
+		B44DE86D1D472F64004C946E /* BWNetworkKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWNetworkKit.h; sourceTree = "<group>"; };
+		B44DE86E1D472F64004C946E /* BWNetworkKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWNetworkKit.m; sourceTree = "<group>"; };
+		B44DE8701D47329F004C946E /* BWCategory */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BWCategory; sourceTree = "<group>"; };
+		B44DE8721D474078004C946E /* BWNetworkConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWNetworkConfiguration.h; sourceTree = "<group>"; };
+		B44DE8781D4740EB004C946E /* BWLibrary */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BWLibrary; sourceTree = "<group>"; };
 		C015DAFC13467B72E0D84AA4 /* libPods-BWProjectFrameworkUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWProjectFrameworkUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDA0465E224EC0739C0F67B /* Pods-BWProjectFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWProjectFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWProjectFramework/Pods-BWProjectFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		D27E4CDB92572A59031E022D /* libPods-BWProjectFrameworkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWProjectFrameworkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,7 +106,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D54CB221A5B239D4A58EC51 /* libPods-BWProjectFrameworkTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +113,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A778714E117DB4C0AD4A069B /* libPods-BWProjectFrameworkUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,14 +144,18 @@
 		212F513E1D40ABFB001CBA91 /* BWProjectFramework */ = {
 			isa = PBXGroup;
 			children = (
+				B44DE8171D470C5B004C946E /* README.md */,
 				212F51421D40ABFB001CBA91 /* AppDelegate.h */,
 				212F51431D40ABFB001CBA91 /* AppDelegate.m */,
-				212F51451D40ABFB001CBA91 /* ViewController.h */,
-				212F51461D40ABFB001CBA91 /* ViewController.m */,
-				212F51481D40ABFB001CBA91 /* Main.storyboard */,
+				B44DE81D1D4711EA004C946E /* MVC */,
+				B44DE81B1D4711EA004C946E /* Global */,
+				B44DE81E1D4711EA004C946E /* Network */,
+				B44DE81A1D4711EA004C946E /* Common */,
+				B44DE8201D4711EA004C946E /* Utility */,
+				B44DE8191D4711EA004C946E /* Category */,
+				B44DE81C1D4711EA004C946E /* Library */,
+				B44DE81F1D4711EA004C946E /* Resource */,
 				212F514B1D40ABFB001CBA91 /* Assets.xcassets */,
-				212F514D1D40ABFB001CBA91 /* LaunchScreen.storyboard */,
-				212F51501D40ABFB001CBA91 /* Info.plist */,
 				212F513F1D40ABFB001CBA91 /* Supporting Files */,
 			);
 			path = BWProjectFramework;
@@ -135,6 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				212F51401D40ABFB001CBA91 /* main.m */,
+				212F51501D40ABFB001CBA91 /* Info.plist */,
+				212F514D1D40ABFB001CBA91 /* LaunchScreen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,12 +194,263 @@
 			children = (
 				CFDA0465E224EC0739C0F67B /* Pods-BWProjectFramework.debug.xcconfig */,
 				0BF7ADEF090DE999D0FEEF19 /* Pods-BWProjectFramework.release.xcconfig */,
-				C0057707E7BC7155BA7D30C5 /* Pods-BWProjectFrameworkTests.debug.xcconfig */,
-				5ED2189836ED67240F6A931F /* Pods-BWProjectFrameworkTests.release.xcconfig */,
-				801B0027DFA12592FC8DD8B5 /* Pods-BWProjectFrameworkUITests.debug.xcconfig */,
-				209EFDBC0FC96F114030851D /* Pods-BWProjectFrameworkUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		B44DE8191D4711EA004C946E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE8701D47329F004C946E /* BWCategory */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B44DE81A1D4711EA004C946E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B44DE81B1D4711EA004C946E /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE8671D472EF1004C946E /* BWGlobal.h */,
+				B44DE8681D472EF1004C946E /* BWGlobal.m */,
+				B44DE86A1D472F27004C946E /* BWUser.h */,
+				B44DE86B1D472F27004C946E /* BWUser.m */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		B44DE81C1D4711EA004C946E /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE8781D4740EB004C946E /* BWLibrary */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		B44DE81D1D4711EA004C946E /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE8431D4716F7004C946E /* BaseViewController */,
+				B44DE8231D4714C2004C946E /* Home */,
+				B44DE8241D4714C2004C946E /* Login */,
+				B44DE8251D4714C2004C946E /* Register */,
+				B44DE8221D4714C2004C946E /* ForgetPassword */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		B44DE81E1D4711EA004C946E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE8721D474078004C946E /* BWNetworkConfiguration.h */,
+				B44DE86D1D472F64004C946E /* BWNetworkKit.h */,
+				B44DE86E1D472F64004C946E /* BWNetworkKit.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B44DE81F1D4711EA004C946E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE8751D4740BE004C946E /* Image */,
+				B44DE8731D4740BE004C946E /* Configuration */,
+				B44DE8741D4740BE004C946E /* Database */,
+				B44DE8761D4740BE004C946E /* Sound */,
+				B44DE8771D4740BE004C946E /* Vedio */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B44DE8201D4711EA004C946E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		B44DE8221D4714C2004C946E /* ForgetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE8321D471582004C946E /* Controller */,
+				B44DE8331D471582004C946E /* Model */,
+				B44DE8341D471582004C946E /* View */,
+			);
+			path = ForgetPassword;
+			sourceTree = "<group>";
+		};
+		B44DE8231D4714C2004C946E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE82F1D47157A004C946E /* Controller */,
+				B44DE8301D47157A004C946E /* Model */,
+				B44DE8311D47157A004C946E /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B44DE8241D4714C2004C946E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE82C1D471570004C946E /* Controller */,
+				B44DE82D1D471570004C946E /* Model */,
+				B44DE82E1D471570004C946E /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B44DE8251D4714C2004C946E /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE8291D471565004C946E /* Controller */,
+				B44DE82A1D471565004C946E /* Model */,
+				B44DE82B1D471565004C946E /* View */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		B44DE8291D471565004C946E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE85D1D4719D2004C946E /* BWRegisterViewController.h */,
+				B44DE85E1D4719D2004C946E /* BWRegisterViewController.m */,
+				B44DE85F1D4719D2004C946E /* BWRegisterViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B44DE82A1D471565004C946E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B44DE82B1D471565004C946E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B44DE82C1D471570004C946E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE8581D4719BD004C946E /* BWLoginViewController.h */,
+				B44DE8591D4719BD004C946E /* BWLoginViewController.m */,
+				B44DE85A1D4719BD004C946E /* BWLoginViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B44DE82D1D471570004C946E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B44DE82E1D471570004C946E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B44DE82F1D47157A004C946E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE8531D4719AA004C946E /* BWHomeViewController.h */,
+				B44DE8541D4719AA004C946E /* BWHomeViewController.m */,
+				B44DE8551D4719AA004C946E /* BWHomeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B44DE8301D47157A004C946E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B44DE8311D47157A004C946E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B44DE8321D471582004C946E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE8621D4719EA004C946E /* BWForgetPasswordViewController.h */,
+				B44DE8631D4719EA004C946E /* BWForgetPasswordViewController.m */,
+				B44DE8641D4719EA004C946E /* BWForgetPasswordViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B44DE8331D471582004C946E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B44DE8341D471582004C946E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B44DE8431D4716F7004C946E /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE8441D471710004C946E /* BWBaseViewController.h */,
+				B44DE8451D471710004C946E /* BWBaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		B44DE8731D4740BE004C946E /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		B44DE8741D4740BE004C946E /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		B44DE8751D4740BE004C946E /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		B44DE8761D4740BE004C946E /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		B44DE8771D4740BE004C946E /* Vedio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vedio;
 			sourceTree = "<group>";
 		};
 		E3EA9865EAA850E0D90D7059 /* Frameworks */ = {
@@ -291,9 +574,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B44DE8571D4719AA004C946E /* BWHomeViewController.xib in Resources */,
+				B44DE8711D47329F004C946E /* BWCategory in Resources */,
 				212F514F1D40ABFB001CBA91 /* LaunchScreen.storyboard in Resources */,
 				212F514C1D40ABFB001CBA91 /* Assets.xcassets in Resources */,
-				212F514A1D40ABFB001CBA91 /* Main.storyboard in Resources */,
+				B44DE8611D4719D2004C946E /* BWRegisterViewController.xib in Resources */,
+				B44DE85C1D4719BD004C946E /* BWLoginViewController.xib in Resources */,
+				B44DE8661D4719EA004C946E /* BWForgetPasswordViewController.xib in Resources */,
+				B44DE8791D4740EB004C946E /* BWLibrary in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,9 +729,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				212F51471D40ABFB001CBA91 /* ViewController.m in Sources */,
+				B44DE8691D472EF1004C946E /* BWGlobal.m in Sources */,
+				B44DE8461D471710004C946E /* BWBaseViewController.m in Sources */,
+				B44DE8561D4719AA004C946E /* BWHomeViewController.m in Sources */,
+				B44DE8651D4719EA004C946E /* BWForgetPasswordViewController.m in Sources */,
+				B44DE8601D4719D2004C946E /* BWRegisterViewController.m in Sources */,
+				B44DE85B1D4719BD004C946E /* BWLoginViewController.m in Sources */,
 				212F51441D40ABFB001CBA91 /* AppDelegate.m in Sources */,
+				B44DE8181D470C5B004C946E /* README.md in Sources */,
 				212F51411D40ABFB001CBA91 /* main.m in Sources */,
+				B44DE86F1D472F64004C946E /* BWNetworkKit.m in Sources */,
+				B44DE86C1D472F27004C946E /* BWUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,14 +775,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		212F51481D40ABFB001CBA91 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				212F51491D40ABFB001CBA91 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		212F514D1D40ABFB001CBA91 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -586,6 +874,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BWProjectFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWProjectFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -598,6 +887,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BWProjectFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWProjectFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -606,7 +896,6 @@
 		};
 		212F516D1D40ABFB001CBA91 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0057707E7BC7155BA7D30C5 /* Pods-BWProjectFrameworkTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BWProjectFrameworkTests/Info.plist;
@@ -619,7 +908,6 @@
 		};
 		212F516E1D40ABFB001CBA91 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5ED2189836ED67240F6A931F /* Pods-BWProjectFrameworkTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BWProjectFrameworkTests/Info.plist;
@@ -632,7 +920,6 @@
 		};
 		212F51701D40ABFB001CBA91 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 801B0027DFA12592FC8DD8B5 /* Pods-BWProjectFrameworkUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BWProjectFrameworkUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -644,7 +931,6 @@
 		};
 		212F51711D40ABFB001CBA91 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 209EFDBC0FC96F114030851D /* Pods-BWProjectFrameworkUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BWProjectFrameworkUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

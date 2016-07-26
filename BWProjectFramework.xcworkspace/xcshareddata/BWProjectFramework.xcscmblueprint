@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C9AB0701F67530C478F5BD8854421398C1A9699F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C9AB0701F67530C478F5BD8854421398C1A9699F" : 0,
+    "AD5F619C55CD4A8A1A5398AC7993AA522C78E16D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E61F81B7-C969-4892-87D8-49A397D028B7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C9AB0701F67530C478F5BD8854421398C1A9699F" : "BWProjectFramework\/",
+    "AD5F619C55CD4A8A1A5398AC7993AA522C78E16D" : "BWProjectFramework-UIStoryboard\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BWProjectFramework",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BWProjectFramework.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/BobWong-Developer\/BWProjectFramework-UIStoryboard.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD5F619C55CD4A8A1A5398AC7993AA522C78E16D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/BobWong-Developer\/BWProjectFramework.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C9AB0701F67530C478F5BD8854421398C1A9699F"
+    }
+  ]
+}

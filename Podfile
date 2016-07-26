@@ -1,20 +1,10 @@
-# Uncomment this line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '7.0'
 
 target 'BWProjectFramework' do
-  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
-
-  # Pods for BWProjectFramework
-
-  target 'BWProjectFrameworkTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'BWProjectFrameworkUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+    
+pod 'AFNetworking', '~> 2.6.3'
+pod 'MBProgressHUD', '~> 1.0.0'
+pod 'SDWebImage', '~>3.8'
+pod 'Masonry'
 
 end
