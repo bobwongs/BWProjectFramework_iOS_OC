@@ -28,6 +28,25 @@
 		B44DE86F1D472F64004C946E /* BWNetworkKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE86E1D472F64004C946E /* BWNetworkKit.m */; };
 		B44DE8711D47329F004C946E /* BWCategory in Resources */ = {isa = PBXBuildFile; fileRef = B44DE8701D47329F004C946E /* BWCategory */; };
 		B44DE8791D4740EB004C946E /* BWLibrary in Resources */ = {isa = PBXBuildFile; fileRef = B44DE8781D4740EB004C946E /* BWLibrary */; };
+		B44DE8831D47446B004C946E /* BWLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8821D47446B004C946E /* BWLocationManager.m */; };
+		B44DE8861D47447B004C946E /* BWScanBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8851D47447B004C946E /* BWScanBarManager.m */; };
+		B44DE8891D474487004C946E /* BWSelectTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8881D474487004C946E /* BWSelectTimeManager.m */; };
+		B44DE88C1D474494004C946E /* BWSomeFunctionalView.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE88B1D474494004C946E /* BWSomeFunctionalView.m */; };
+		B44DE88F1D4744C9004C946E /* BWDataUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE88E1D4744C9004C946E /* BWDataUtility.m */; };
+		B44DE8921D4744E9004C946E /* BWUIUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8911D4744E9004C946E /* BWUIUtility.m */; };
+		B44DE8941D474515004C946E /* Image in Resources */ = {isa = PBXBuildFile; fileRef = B44DE8931D474515004C946E /* Image */; };
+		B44DE8961D474529004C946E /* Configuration in Resources */ = {isa = PBXBuildFile; fileRef = B44DE8951D474529004C946E /* Configuration */; };
+		B44DE8981D474540004C946E /* Database in Resources */ = {isa = PBXBuildFile; fileRef = B44DE8971D474540004C946E /* Database */; };
+		B44DE89A1D474555004C946E /* Sound in Resources */ = {isa = PBXBuildFile; fileRef = B44DE8991D474555004C946E /* Sound */; };
+		B44DE89C1D47456F004C946E /* Vedio in Resources */ = {isa = PBXBuildFile; fileRef = B44DE89B1D47456F004C946E /* Vedio */; };
+		B44DE89F1D4745CA004C946E /* BWHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE89E1D4745CA004C946E /* BWHomeModel.m */; };
+		B44DE8A21D4745DD004C946E /* BWHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8A11D4745DD004C946E /* BWHomeView.m */; };
+		B44DE8A51D4745EB004C946E /* BWLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8A41D4745EB004C946E /* BWLoginModel.m */; };
+		B44DE8A81D4745F3004C946E /* BWLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8A71D4745F3004C946E /* BWLoginView.m */; };
+		B44DE8AB1D47464B004C946E /* BWRegisterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8AA1D47464B004C946E /* BWRegisterModel.m */; };
+		B44DE8AE1D47465A004C946E /* BWRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8AD1D47465A004C946E /* BWRegisterView.m */; };
+		B44DE8B11D474704004C946E /* BWForgetPasswordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8B01D474704004C946E /* BWForgetPasswordModel.m */; };
+		B44DE8B41D474711004C946E /* BWForgetPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8B31D474711004C946E /* BWForgetPasswordView.m */; };
 		DDC9DE0E9B2B46439503EB64 /* libPods-BWProjectFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC1DE9E9879244B5247CE15 /* libPods-BWProjectFramework.a */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +106,39 @@
 		B44DE8701D47329F004C946E /* BWCategory */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BWCategory; sourceTree = "<group>"; };
 		B44DE8721D474078004C946E /* BWNetworkConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWNetworkConfiguration.h; sourceTree = "<group>"; };
 		B44DE8781D4740EB004C946E /* BWLibrary */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BWLibrary; sourceTree = "<group>"; };
+		B44DE8811D47446B004C946E /* BWLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWLocationManager.h; sourceTree = "<group>"; };
+		B44DE8821D47446B004C946E /* BWLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWLocationManager.m; sourceTree = "<group>"; };
+		B44DE8841D47447B004C946E /* BWScanBarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWScanBarManager.h; sourceTree = "<group>"; };
+		B44DE8851D47447B004C946E /* BWScanBarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWScanBarManager.m; sourceTree = "<group>"; };
+		B44DE8871D474487004C946E /* BWSelectTimeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWSelectTimeManager.h; sourceTree = "<group>"; };
+		B44DE8881D474487004C946E /* BWSelectTimeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWSelectTimeManager.m; sourceTree = "<group>"; };
+		B44DE88A1D474494004C946E /* BWSomeFunctionalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWSomeFunctionalView.h; sourceTree = "<group>"; };
+		B44DE88B1D474494004C946E /* BWSomeFunctionalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWSomeFunctionalView.m; sourceTree = "<group>"; };
+		B44DE88D1D4744C9004C946E /* BWDataUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWDataUtility.h; sourceTree = "<group>"; };
+		B44DE88E1D4744C9004C946E /* BWDataUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWDataUtility.m; sourceTree = "<group>"; };
+		B44DE8901D4744E9004C946E /* BWUIUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWUIUtility.h; sourceTree = "<group>"; };
+		B44DE8911D4744E9004C946E /* BWUIUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWUIUtility.m; sourceTree = "<group>"; };
+		B44DE8931D474515004C946E /* Image */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Image; sourceTree = "<group>"; };
+		B44DE8951D474529004C946E /* Configuration */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Configuration; sourceTree = "<group>"; };
+		B44DE8971D474540004C946E /* Database */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Database; sourceTree = "<group>"; };
+		B44DE8991D474555004C946E /* Sound */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sound; sourceTree = "<group>"; };
+		B44DE89B1D47456F004C946E /* Vedio */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vedio; sourceTree = "<group>"; };
+		B44DE89D1D4745CA004C946E /* BWHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWHomeModel.h; sourceTree = "<group>"; };
+		B44DE89E1D4745CA004C946E /* BWHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWHomeModel.m; sourceTree = "<group>"; };
+		B44DE8A01D4745DD004C946E /* BWHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWHomeView.h; sourceTree = "<group>"; };
+		B44DE8A11D4745DD004C946E /* BWHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWHomeView.m; sourceTree = "<group>"; };
+		B44DE8A31D4745EB004C946E /* BWLoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWLoginModel.h; sourceTree = "<group>"; };
+		B44DE8A41D4745EB004C946E /* BWLoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWLoginModel.m; sourceTree = "<group>"; };
+		B44DE8A61D4745F3004C946E /* BWLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWLoginView.h; sourceTree = "<group>"; };
+		B44DE8A71D4745F3004C946E /* BWLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWLoginView.m; sourceTree = "<group>"; };
+		B44DE8A91D47464B004C946E /* BWRegisterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWRegisterModel.h; sourceTree = "<group>"; };
+		B44DE8AA1D47464B004C946E /* BWRegisterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWRegisterModel.m; sourceTree = "<group>"; };
+		B44DE8AC1D47465A004C946E /* BWRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWRegisterView.h; sourceTree = "<group>"; };
+		B44DE8AD1D47465A004C946E /* BWRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWRegisterView.m; sourceTree = "<group>"; };
+		B44DE8AF1D474704004C946E /* BWForgetPasswordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWForgetPasswordModel.h; sourceTree = "<group>"; };
+		B44DE8B01D474704004C946E /* BWForgetPasswordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWForgetPasswordModel.m; sourceTree = "<group>"; };
+		B44DE8B21D474711004C946E /* BWForgetPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWForgetPasswordView.h; sourceTree = "<group>"; };
+		B44DE8B31D474711004C946E /* BWForgetPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWForgetPasswordView.m; sourceTree = "<group>"; };
 		C015DAFC13467B72E0D84AA4 /* libPods-BWProjectFrameworkUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWProjectFrameworkUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDA0465E224EC0739C0F67B /* Pods-BWProjectFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWProjectFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWProjectFramework/Pods-BWProjectFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		D27E4CDB92572A59031E022D /* libPods-BWProjectFrameworkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWProjectFrameworkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -209,6 +261,10 @@
 		B44DE81A1D4711EA004C946E /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				B44DE87D1D47445D004C946E /* LocationManager */,
+				B44DE87E1D47445D004C946E /* ScanBarManager */,
+				B44DE87F1D47445D004C946E /* SelectTimeManager */,
+				B44DE8801D47445D004C946E /* SomeFunctionalView */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -269,6 +325,10 @@
 		B44DE8201D4711EA004C946E /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				B44DE88D1D4744C9004C946E /* BWDataUtility.h */,
+				B44DE88E1D4744C9004C946E /* BWDataUtility.m */,
+				B44DE8901D4744E9004C946E /* BWUIUtility.h */,
+				B44DE8911D4744E9004C946E /* BWUIUtility.m */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -326,6 +386,8 @@
 		B44DE82A1D471565004C946E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B44DE8A91D47464B004C946E /* BWRegisterModel.h */,
+				B44DE8AA1D47464B004C946E /* BWRegisterModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -333,6 +395,8 @@
 		B44DE82B1D471565004C946E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B44DE8AC1D47465A004C946E /* BWRegisterView.h */,
+				B44DE8AD1D47465A004C946E /* BWRegisterView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -350,6 +414,8 @@
 		B44DE82D1D471570004C946E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B44DE8A31D4745EB004C946E /* BWLoginModel.h */,
+				B44DE8A41D4745EB004C946E /* BWLoginModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -357,6 +423,8 @@
 		B44DE82E1D471570004C946E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B44DE8A61D4745F3004C946E /* BWLoginView.h */,
+				B44DE8A71D4745F3004C946E /* BWLoginView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -374,6 +442,8 @@
 		B44DE8301D47157A004C946E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B44DE89D1D4745CA004C946E /* BWHomeModel.h */,
+				B44DE89E1D4745CA004C946E /* BWHomeModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -381,6 +451,8 @@
 		B44DE8311D47157A004C946E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B44DE8A01D4745DD004C946E /* BWHomeView.h */,
+				B44DE8A11D4745DD004C946E /* BWHomeView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -398,6 +470,8 @@
 		B44DE8331D471582004C946E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B44DE8AF1D474704004C946E /* BWForgetPasswordModel.h */,
+				B44DE8B01D474704004C946E /* BWForgetPasswordModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -405,6 +479,8 @@
 		B44DE8341D471582004C946E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B44DE8B21D474711004C946E /* BWForgetPasswordView.h */,
+				B44DE8B31D474711004C946E /* BWForgetPasswordView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -421,6 +497,7 @@
 		B44DE8731D4740BE004C946E /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
+				B44DE8951D474529004C946E /* Configuration */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -428,6 +505,7 @@
 		B44DE8741D4740BE004C946E /* Database */ = {
 			isa = PBXGroup;
 			children = (
+				B44DE8971D474540004C946E /* Database */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -435,6 +513,7 @@
 		B44DE8751D4740BE004C946E /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				B44DE8931D474515004C946E /* Image */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -442,6 +521,7 @@
 		B44DE8761D4740BE004C946E /* Sound */ = {
 			isa = PBXGroup;
 			children = (
+				B44DE8991D474555004C946E /* Sound */,
 			);
 			path = Sound;
 			sourceTree = "<group>";
@@ -449,8 +529,45 @@
 		B44DE8771D4740BE004C946E /* Vedio */ = {
 			isa = PBXGroup;
 			children = (
+				B44DE89B1D47456F004C946E /* Vedio */,
 			);
 			path = Vedio;
+			sourceTree = "<group>";
+		};
+		B44DE87D1D47445D004C946E /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE8811D47446B004C946E /* BWLocationManager.h */,
+				B44DE8821D47446B004C946E /* BWLocationManager.m */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		B44DE87E1D47445D004C946E /* ScanBarManager */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE8841D47447B004C946E /* BWScanBarManager.h */,
+				B44DE8851D47447B004C946E /* BWScanBarManager.m */,
+			);
+			path = ScanBarManager;
+			sourceTree = "<group>";
+		};
+		B44DE87F1D47445D004C946E /* SelectTimeManager */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE8871D474487004C946E /* BWSelectTimeManager.h */,
+				B44DE8881D474487004C946E /* BWSelectTimeManager.m */,
+			);
+			path = SelectTimeManager;
+			sourceTree = "<group>";
+		};
+		B44DE8801D47445D004C946E /* SomeFunctionalView */ = {
+			isa = PBXGroup;
+			children = (
+				B44DE88A1D474494004C946E /* BWSomeFunctionalView.h */,
+				B44DE88B1D474494004C946E /* BWSomeFunctionalView.m */,
+			);
+			path = SomeFunctionalView;
 			sourceTree = "<group>";
 		};
 		E3EA9865EAA850E0D90D7059 /* Frameworks */ = {
@@ -577,9 +694,14 @@
 				B44DE8571D4719AA004C946E /* BWHomeViewController.xib in Resources */,
 				B44DE8711D47329F004C946E /* BWCategory in Resources */,
 				212F514F1D40ABFB001CBA91 /* LaunchScreen.storyboard in Resources */,
+				B44DE8941D474515004C946E /* Image in Resources */,
 				212F514C1D40ABFB001CBA91 /* Assets.xcassets in Resources */,
+				B44DE8961D474529004C946E /* Configuration in Resources */,
+				B44DE89A1D474555004C946E /* Sound in Resources */,
 				B44DE8611D4719D2004C946E /* BWRegisterViewController.xib in Resources */,
+				B44DE8981D474540004C946E /* Database in Resources */,
 				B44DE85C1D4719BD004C946E /* BWLoginViewController.xib in Resources */,
+				B44DE89C1D47456F004C946E /* Vedio in Resources */,
 				B44DE8661D4719EA004C946E /* BWForgetPasswordViewController.xib in Resources */,
 				B44DE8791D4740EB004C946E /* BWLibrary in Resources */,
 			);
@@ -729,17 +851,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B44DE8861D47447B004C946E /* BWScanBarManager.m in Sources */,
+				B44DE88F1D4744C9004C946E /* BWDataUtility.m in Sources */,
+				B44DE8891D474487004C946E /* BWSelectTimeManager.m in Sources */,
 				B44DE8691D472EF1004C946E /* BWGlobal.m in Sources */,
 				B44DE8461D471710004C946E /* BWBaseViewController.m in Sources */,
+				B44DE88C1D474494004C946E /* BWSomeFunctionalView.m in Sources */,
 				B44DE8561D4719AA004C946E /* BWHomeViewController.m in Sources */,
+				B44DE8AE1D47465A004C946E /* BWRegisterView.m in Sources */,
 				B44DE8651D4719EA004C946E /* BWForgetPasswordViewController.m in Sources */,
 				B44DE8601D4719D2004C946E /* BWRegisterViewController.m in Sources */,
+				B44DE8B41D474711004C946E /* BWForgetPasswordView.m in Sources */,
+				B44DE8AB1D47464B004C946E /* BWRegisterModel.m in Sources */,
+				B44DE8A81D4745F3004C946E /* BWLoginView.m in Sources */,
 				B44DE85B1D4719BD004C946E /* BWLoginViewController.m in Sources */,
+				B44DE8A21D4745DD004C946E /* BWHomeView.m in Sources */,
 				212F51441D40ABFB001CBA91 /* AppDelegate.m in Sources */,
+				B44DE8A51D4745EB004C946E /* BWLoginModel.m in Sources */,
 				B44DE8181D470C5B004C946E /* README.md in Sources */,
+				B44DE8921D4744E9004C946E /* BWUIUtility.m in Sources */,
 				212F51411D40ABFB001CBA91 /* main.m in Sources */,
 				B44DE86F1D472F64004C946E /* BWNetworkKit.m in Sources */,
+				B44DE89F1D4745CA004C946E /* BWHomeModel.m in Sources */,
 				B44DE86C1D472F27004C946E /* BWUser.m in Sources */,
+				B44DE8B11D474704004C946E /* BWForgetPasswordModel.m in Sources */,
+				B44DE8831D47446B004C946E /* BWLocationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
