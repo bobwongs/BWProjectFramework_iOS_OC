@@ -132,6 +132,7 @@
 		B44DE8B21D474711004C946E /* BWForgetPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWForgetPasswordView.h; sourceTree = "<group>"; };
 		B44DE8B31D474711004C946E /* BWForgetPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWForgetPasswordView.m; sourceTree = "<group>"; };
 		B44DE8B51D47516B004C946E /* BWProjectFrameworkPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWProjectFrameworkPrefixHeader.pch; sourceTree = "<group>"; };
+		B470C53F1D615C07007E0F0E /* BWMacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWMacroDefinition.h; sourceTree = "<group>"; };
 		C015DAFC13467B72E0D84AA4 /* libPods-BWProjectFrameworkUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWProjectFrameworkUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDA0465E224EC0739C0F67B /* Pods-BWProjectFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWProjectFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWProjectFramework/Pods-BWProjectFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		D27E4CDB92572A59031E022D /* libPods-BWProjectFrameworkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWProjectFrameworkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -255,6 +256,7 @@
 		B44DE81A1D4711EA004C946E /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				B470C53E1D615C07007E0F0E /* MacroDefinition */,
 				B44DE87D1D47445D004C946E /* LocationManager */,
 				B44DE87E1D47445D004C946E /* ScanBarManager */,
 				B44DE87F1D47445D004C946E /* SelectTimeManager */,
@@ -562,6 +564,14 @@
 				B44DE88B1D474494004C946E /* BWSomeFunctionalView.m */,
 			);
 			path = SomeFunctionalView;
+			sourceTree = "<group>";
+		};
+		B470C53E1D615C07007E0F0E /* MacroDefinition */ = {
+			isa = PBXGroup;
+			children = (
+				B470C53F1D615C07007E0F0E /* BWMacroDefinition.h */,
+			);
+			path = MacroDefinition;
 			sourceTree = "<group>";
 		};
 		E3EA9865EAA850E0D90D7059 /* Frameworks */ = {
