@@ -39,6 +39,7 @@
 		B44DE8AE1D47465A004C946E /* BWRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8AD1D47465A004C946E /* BWRegisterView.m */; };
 		B44DE8B11D474704004C946E /* BWForgetPasswordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8B01D474704004C946E /* BWForgetPasswordModel.m */; };
 		B44DE8B41D474711004C946E /* BWForgetPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = B44DE8B31D474711004C946E /* BWForgetPasswordView.m */; };
+		B47E40501DE2F50A006DCB42 /* 开发文档.md in Sources */ = {isa = PBXBuildFile; fileRef = B47E404F1DE2F50A006DCB42 /* 开发文档.md */; };
 		DDC9DE0E9B2B46439503EB64 /* libPods-BWProjectFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC1DE9E9879244B5247CE15 /* libPods-BWProjectFramework.a */; };
 /* End PBXBuildFile section */
 
@@ -133,6 +134,7 @@
 		B44DE8B31D474711004C946E /* BWForgetPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWForgetPasswordView.m; sourceTree = "<group>"; };
 		B44DE8B51D47516B004C946E /* BWProjectFrameworkPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWProjectFrameworkPrefixHeader.pch; sourceTree = "<group>"; };
 		B470C53F1D615C07007E0F0E /* BWMacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWMacroDefinition.h; sourceTree = "<group>"; };
+		B47E404F1DE2F50A006DCB42 /* 开发文档.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "开发文档.md"; sourceTree = "<group>"; };
 		C015DAFC13467B72E0D84AA4 /* libPods-BWProjectFrameworkUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWProjectFrameworkUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDA0465E224EC0739C0F67B /* Pods-BWProjectFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWProjectFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWProjectFramework/Pods-BWProjectFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		D27E4CDB92572A59031E022D /* libPods-BWProjectFrameworkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWProjectFrameworkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,12 +195,14 @@
 				B44DE8171D470C5B004C946E /* README.md */,
 				212F51421D40ABFB001CBA91 /* AppDelegate.h */,
 				212F51431D40ABFB001CBA91 /* AppDelegate.m */,
+				B47E404E1DE2F44C006DCB42 /* Document */,
 				B44DE81D1D4711EA004C946E /* MVC */,
 				B44DE81B1D4711EA004C946E /* Global */,
 				B44DE81E1D4711EA004C946E /* Network */,
 				B44DE81A1D4711EA004C946E /* Common */,
 				B44DE8201D4711EA004C946E /* Utility */,
 				B44DE8191D4711EA004C946E /* Category */,
+				B47E40511DE2F84F006DCB42 /* Class */,
 				B44DE81C1D4711EA004C946E /* Library */,
 				B44DE81F1D4711EA004C946E /* Resource */,
 				212F514B1D40ABFB001CBA91 /* Assets.xcassets */,
@@ -574,6 +578,21 @@
 			path = MacroDefinition;
 			sourceTree = "<group>";
 		};
+		B47E404E1DE2F44C006DCB42 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				B47E404F1DE2F50A006DCB42 /* 开发文档.md */,
+			);
+			path = Document;
+			sourceTree = "<group>";
+		};
+		B47E40511DE2F84F006DCB42 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
 		E3EA9865EAA850E0D90D7059 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -870,6 +889,7 @@
 				B44DE86F1D472F64004C946E /* BWNetworkKit.m in Sources */,
 				B44DE89F1D4745CA004C946E /* BWHomeModel.m in Sources */,
 				B44DE86C1D472F27004C946E /* BWUser.m in Sources */,
+				B47E40501DE2F50A006DCB42 /* 开发文档.md in Sources */,
 				B44DE8B11D474704004C946E /* BWForgetPasswordModel.m in Sources */,
 				B44DE8831D47446B004C946E /* BWLocationManager.m in Sources */,
 			);
